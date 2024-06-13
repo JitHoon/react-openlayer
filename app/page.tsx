@@ -8,6 +8,7 @@ import TextWithMarker from "./components/Guide/TextWithMarker";
 import PopupText from "./components/Guide/PopupText";
 //import { SyncMap } from "react-openlayers7";
 import VectorLayers from "./components/Guide/VectorLayers";
+import CaptureMapUI from "./components/Guide/CaptureMap";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <PopupText />
         {/*<SyncMap />*/}
         <VectorLayers />
+        <CaptureMapUI />
       </div>
     </main>
   );
