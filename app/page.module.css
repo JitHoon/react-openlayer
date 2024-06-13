@@ -1,7 +1,33 @@
 .main {
   width: 100vw;
+
+  margin: 0 50px;
+
   display: flex;
-  margin: 0;
+  flex-direction: column;
+  justify-content: space-around;
+
+  box-sizing: border-box;
+}
+
+.category {
+  margin-top: 50px;
+}
+
+.categoryBox {
+  margin-top: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.layerContainer {
+  width: 400px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .title {

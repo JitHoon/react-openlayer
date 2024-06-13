@@ -8,12 +8,14 @@ icon.selected = "/images/marker-selected.png";
 
 const TextWithMarker = () => {
   return (
-    <MapContainer center={[126.840884, 35.190816]} width="30%" height="30vh">
-      <h2 className={styles.title}>Text with Marker</h2>
-      <CustomMarker center={[126.840884, 35.190816]}>
-        <InnerText>Marker</InnerText>
-      </CustomMarker>
-    </MapContainer>
+    <div className={styles.layerContainer}>
+      <h3 className={styles.title}>Text with Marker</h3>
+      <MapContainer center={[126.840884, 35.190816]} width="100%" height="30vh">
+        <CustomMarker center={[126.840884, 35.190816]}>
+          <InnerText>Marker</InnerText>
+        </CustomMarker>
+      </MapContainer>
+    </div>
   );
 };
 
