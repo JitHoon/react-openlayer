@@ -12,6 +12,7 @@ import CaptureMapUI from "./components/Guide/CaptureMap";
 import TileLayerUI from "./components/Guide/TileLayer";
 import GeoJsonLayerUI from "./components/Guide/GeoJsonLayer";
 import LayerzIndex from "./components/Guide/LayerzIndex";
+import LayerGroupUI from "./components/Guide/LayerGroup";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         <TileLayerUI />
         <GeoJsonLayerUI />
         <LayerzIndex />
+        <LayerGroupUI />
       </div>
     </main>
   );
