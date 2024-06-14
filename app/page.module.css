@@ -39,15 +39,9 @@
   top: 0;
 }
 
-.closeButtonStyle {
+.buttonStyle {
   width: 50px;
   height: 50px;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  z-index: 1;
 
   font-size: 10px;
 }

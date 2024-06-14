@@ -23,7 +23,10 @@ import DrawingToolsUI from "./components/Control/DrawingTools";
 import CustomToolsUI from "./components/Control/CustomTool";
 
 import UseFullScreen from "./components/Hooks/UseFullScreen";
-import UseFullMap from "./components/Hooks/UseMap";
+import UseMap from "./components/Hooks/UseMap";
+import UseMapRotationUI from "./components/Hooks/UseMapRotation";
+import UseSelectAnnotationUI from "./components/Hooks/UseSelectAnnotation";
+import UseMapEventHandlerUI from "./components/Hooks/UseMapEventHandler";
 
 export default function Home() {
   return (
@@ -59,7 +62,10 @@ export default function Home() {
       <h2 className={styles.category}>Hooks</h2>
       <div className={styles.categoryBox}>
         <UseFullScreen />
-        <UseFullMap />
+        <UseMap />
+        <UseMapRotationUI />
+        <UseSelectAnnotationUI />
+        <UseMapEventHandlerUI />
       </div>
     </main>
   );

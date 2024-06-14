@@ -39,7 +39,7 @@ const UseFullScreen = () => {
       >
         <button
           ref={ref}
-          className={styles.closeButtonStyle}
+          className={styles.buttonStyle}
           onClick={toggleFullScreen}
         >
           {isFull ? "닫기" : "전체화면"}
