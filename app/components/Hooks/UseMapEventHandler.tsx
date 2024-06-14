@@ -6,18 +6,18 @@ import styles from "../../page.module.css";
 const MapEventFeature = () => {
   useMapEventHandler({
     onClick: ({ event, lonlat }) => {
-      console.log("onClickevent", event);
-      console.log("onClicklonlat", lonlat);
+      console.log("onClickEvent", event);
+      console.log("onClickLonlat", lonlat);
     },
     onHover: ({ event, lonlat }) => {
-      console.log("onHoverevent", event);
-      console.log("onHoverlonlat", lonlat);
+      console.log("onHoverEvent", event);
+      console.log("onHoverLonlat", lonlat);
     },
     onLoaded: (event) => {
-      console.log("onLoadedevent", event);
+      console.log("onLoadedEvent", event);
     },
     onLoadStart: (event) => {
-      console.log("onLoadStartevent", event);
+      console.log("onLoadStartEvent", event);
     },
   });
 
