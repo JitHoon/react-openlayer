@@ -9,7 +9,7 @@ const RotationFeature = () => {
   const [degree, setDegree] = useState(rotationDegree);
 
   useEffect(() => {
-    if (degree === 360) setRotate(0);
+    if (degree === 360) setDegree(0);
     else setRotate(degree);
   }, [degree]);
 
