@@ -15,12 +15,15 @@ import GeoJsonLayerUI from "./components/Guide/GeoJsonLayer";
 import LayerzIndex from "./components/Guide/LayerzIndex";
 import LayerGroupUI from "./components/Guide/LayerGroup";
 import ImageOverayUI from "./components/Guide/ImageOveray";
+import CompassWheelUI from "./components/Control/CompassWheelUI";
 
-import CompassWheelUI from "./components/Control/CompassWheelUi";
 import ZoomFeatureUI from "./components/Control/ZoomFeatureUI";
 import FullScreenUI from "./components/Control/FullScreen";
 import DrawingToolsUI from "./components/Control/DrawingTools";
 import CustomToolsUI from "./components/Control/CustomTool";
+
+import UseFullScreen from "./components/Hooks/UseFullScreen";
+import UseFullMap from "./components/Hooks/UseMap";
 
 export default function Home() {
   return (
@@ -51,6 +54,12 @@ export default function Home() {
         <FullScreenUI />
         <DrawingToolsUI />
         <CustomToolsUI />
+      </div>
+
+      <h2 className={styles.category}>Hooks</h2>
+      <div className={styles.categoryBox}>
+        <UseFullScreen />
+        <UseFullMap />
       </div>
     </main>
   );
