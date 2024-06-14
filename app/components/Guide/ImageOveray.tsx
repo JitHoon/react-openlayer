@@ -10,7 +10,7 @@ const ImageOverayUI = () => {
 
   return (
     <div className={styles.layerContainer}>
-      <h3 className={styles.title}>Layer Group</h3>
+      <h3 className={styles.title}>Image Overay</h3>
       <MapContainer
         center={[126.840884, 35.190816]}
         width="100%"
