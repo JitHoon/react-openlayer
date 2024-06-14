@@ -17,7 +17,7 @@ const TileLayerUI = () => {
 
   return (
     <div className={styles.layerContainer}>
-      <h3 className={styles.title}>Text with Marker</h3>
+      <h3 className={styles.title}>Tile Layer</h3>
       <MapContainer
         center={[126.840884, 35.190816]}
         width="100%"

@@ -1,30 +1,26 @@
 "use client";
 
-import {
-  ControlSection,
-  /* NOTE
-    SyncMap이 import 되지 않습니다.
-    hint로 SyncMapContext이 뜨며 공식 문서에서 찾아볼 수 없습니다.
-  */
-  SyncMapGroup,
-} from "react-openlayers7";
-import styles from "./page.module.css";
+import { ControlSection, SyncMap, SyncMapGroup } from "react-openlayers7";
+import styles from "../../page.module.css";
 
-const SyncMap = () => {
+const SyncMapUI = () => {
   return (
-    <SyncMapGroup rotate={90}>
-      {/*<SyncMap>*/}
-      <ControlSection>
-        <h1>hello</h1>
-      </ControlSection>
-      {/*</SyncMap>*/}
-      {/*<SyncMap>*/}
-      <ControlSection>
-        <h1>hello</h1>
-      </ControlSection>
-      {/*</SyncMap>*/}
-    </SyncMapGroup>
+    <div className={styles.layerContainer}>
+      <h3 className={styles.title}>SyncMap</h3>
+      <SyncMapGroup rotate={90}>
+        <SyncMap>
+          <ControlSection>
+            <h1>동기화 기능</h1>
+          </ControlSection>
+        </SyncMap>
+        <SyncMap>
+          <ControlSection>
+            <h1>동기화 기능</h1>
+          </ControlSection>
+        </SyncMap>
+      </SyncMapGroup>
+    </div>
   );
 };
 
-export default SyncMap;
+export default SyncMapUI;
