@@ -21,7 +21,7 @@ const TileLayerUI = () => {
       <MapContainer
         center={[126.840884, 35.190816]}
         width="100%"
-        height="500px"
+        height="300px"
       >
         <TileLayer url="https://tgxe79f6wl.execute-api.ap-northeast-2.amazonaws.com/dev/dev-drone-square-bucket/public/1/manifold/orthomosaic_tiles/{z}/{x}/{y}.png" />
       </MapContainer>

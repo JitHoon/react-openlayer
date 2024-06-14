@@ -20,7 +20,7 @@ const LayerGroupUI = () => {
       <MapContainer
         center={[126.841784, 35.191406]}
         width="100%"
-        height="500px"
+        height="300px"
       >
         <LayerGroup zIndex={1}>
           <CustomCircle

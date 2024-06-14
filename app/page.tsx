@@ -13,6 +13,7 @@ import TileLayerUI from "./components/Guide/TileLayer";
 import GeoJsonLayerUI from "./components/Guide/GeoJsonLayer";
 import LayerzIndex from "./components/Guide/LayerzIndex";
 import LayerGroupUI from "./components/Guide/LayerGroup";
+import ImageOverayUI from "./components/Guide/ImageOveray";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         <GeoJsonLayerUI />
         <LayerzIndex />
         <LayerGroupUI />
+        <ImageOverayUI />
       </div>
     </main>
   );

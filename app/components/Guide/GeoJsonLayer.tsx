@@ -60,7 +60,7 @@ const GeoJsonLayerUI = () => {
       <MapContainer
         center={[126.840884, 35.190816]}
         width="100%"
-        height="500px"
+        height="300px"
       >
         <GeoJsonLayer color="blue" geoJson={geoJsonSample} />
       </MapContainer>

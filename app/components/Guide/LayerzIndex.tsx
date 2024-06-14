@@ -10,7 +10,7 @@ const LayerzIndex = () => {
       <MapContainer
         center={[126.841784, 35.191406]}
         width="100%"
-        height="500px"
+        height="300px"
       >
         <CustomCircle
           center={[126.841884, 35.191516]}
